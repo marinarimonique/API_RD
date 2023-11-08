@@ -2,7 +2,6 @@
 
 Funcionalidade: Validar informações de um CEP
 
-    @logradouro
     Esquema do Cenario: Validar logradouro
         Dado que desejo consultar as informações de um endereço
         Quando realizar a requisição no ViaCep com o "<CEP>"
@@ -13,7 +12,6 @@ Funcionalidade: Validar informações de um CEP
         |CEP     |logradouro               |
         |06210030|Avenida José Lopez Lázaro|
 
-    @ddd
     Esquema do Cenario: Validar DDD
         Dado que desejo consultar as informações de um endereço
         Quando realizar a requisição no ViaCep com o "<CEP>"
